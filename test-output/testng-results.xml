@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10424" started-at="2020-06-15T18:54:47Z" finished-at="2020-06-15T18:54:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10424" started-at="2020-06-15T18:54:47Z" finished-at="2020-06-15T18:54:57Z">
+      <class name="com.sfdc.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="setup" is-config="true" duration-ms="2713" started-at="2020-06-15T13:54:47Z" finished-at="2020-06-15T13:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPageTitle()[pri:1, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="validateLoginPageTitle" duration-ms="41" started-at="2020-06-15T13:54:49Z" finished-at="2020-06-15T13:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-06-15T13:54:49Z" finished-at="2020-06-15T13:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="setup" is-config="true" duration-ms="1595" started-at="2020-06-15T13:54:50Z" finished-at="2020-06-15T13:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLogoOfPageTitle()[pri:2, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="validateLogoOfPageTitle" duration-ms="108" started-at="2020-06-15T13:54:51Z" finished-at="2020-06-15T13:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoOfPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-06-15T13:54:51Z" finished-at="2020-06-15T13:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="setup" is-config="true" duration-ms="1605" started-at="2020-06-15T13:54:52Z" finished-at="2020-06-15T13:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1NavigateToSFDC(java.lang.String, java.lang.String)[pri:3, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="tc1NavigateToSFDC" duration-ms="1539" started-at="2020-06-15T13:54:53Z" data-provider="Data_UsernameAndPassword" finished-at="2020-06-15T13:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neha.s@salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1NavigateToSFDC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="tearDown" is-config="true" duration-ms="99" started-at="2020-06-15T13:54:55Z" finished-at="2020-06-15T13:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="setup" is-config="true" duration-ms="1647" started-at="2020-06-15T13:54:55Z" finished-at="2020-06-15T13:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest_invalidCredentials(java.lang.String, java.lang.String)[pri:4, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="logintest_invalidCredentials" duration-ms="585" started-at="2020-06-15T13:54:56Z" data-provider="InvalidUsernameAndPassword" finished-at="2020-06-15T13:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neha.s@salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest_invalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.LoginPageTest@40e6dfe1]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-06-15T13:54:57Z" finished-at="2020-06-15T13:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfdc.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
