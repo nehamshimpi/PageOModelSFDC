@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SFDC Application">
+<listeners>
+<listener class-name="com.sfdc.qa.ExtentReportsListener.ExtentReportManager" />
+</listeners>
+	
+	<test name="SFDCLogin_Test">
+		<classes>
+			<class name="com.sfdc.qa.testcases.LoginPageTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -7,6 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+//import org.testng.log4testng.Logger;
+import org.apache.log4j.Logger;
 
 import com.sfdc.qa.base.TestBase;
 import com.sfdc.qa.pages.HomePage;
@@ -18,6 +20,8 @@ public class LoginPageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
 	
+	public static Logger log = Logger.getLogger(LoginPageTest.class.getName());
+	
 	public LoginPageTest() {
 		super();
 		
@@ -26,21 +30,23 @@ public class LoginPageTest extends TestBase{
 	@BeforeMethod
 	public void setup() throws Exception
 	{
+		log.info("Launching the Browser");
 		launch_Browser(); 
 		loginPage = new LoginPage();
 	}
 	
 	
 	@Test(priority=1)
-	public void validateLoginPageTitle()
+	public void validateLoginPageTitleTest()
 	{
 		String title = loginPage.validateLoginPageTitle();
+		log.info(title);
 		Assert.assertEquals(title, "Login | Salesforce");
 		
 	}
 	
 	@Test(priority=2 )
-	public void validateLogoOfPageTitle()
+	public void validateLogoOfPageTitleTest()
 	{
 		boolean flag = loginPage.validateSfdcImage();
 		Assert.assertTrue(flag);
@@ -57,10 +63,10 @@ public class LoginPageTest extends TestBase{
 	
 
 	@Test(priority=3 , dataProvider="Data_UsernameAndPassword")
-	public void tc1NavigateToSFDC(String sUsername,String sPassword )
+	public void validCredentialsSFDCTest(String sUsername,String sPassword )
 	{		
 		loginPage.validLoginCredentials(sUsername,sPassword);
-		System.out.println("logged in successfully!");
+		log.info("logged in successfully!");
 		
 	}
 	
@@ -71,17 +77,19 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	@Test(priority=4, dataProvider="InvalidUsernameAndPassword")
-	public void logintest_invalidCredentials(String sUsername, String sPassword) {
+	public void invalidCredentialsSFDCTest(String sUsername, String sPassword) {
 		loginPage.login_invalidCredentials(sUsername,sPassword);
 		WebElement loginError=driver.findElement(By.xpath("//div[@id='error']"));
 		String error = loginError.getText();
-		System.out.println(error);	
+		log.error(error);
+			
 	}
 		
 	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();
+		log.info("Quit the browser.");
 	}
 	
 

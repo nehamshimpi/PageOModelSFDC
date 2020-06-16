@@ -2,6 +2,7 @@ package com.sfdc.qa.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,6 +13,9 @@ public class LoginPage extends TestBase{
 	
 	//Page Factory - OR:
 		@FindBy(id="username")
+		@CacheLookup 
+		//@CacheLookup: used for performance of project. 
+		//instead of calling the browser for each element it will take the element xpaths and other details from the cache
 		WebElement username;
 		
 		@FindBy(id="password")
