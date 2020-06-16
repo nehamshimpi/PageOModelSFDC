@@ -1,0 +1,15 @@
+2020-06-15 23:37:13,845  INFO [main] LoginPageTest:33 - Launching the Browser
+2020-06-15 23:37:16,222  INFO [main] LoginPageTest:43 - Login | Salesforce
+2020-06-15 23:37:16,323  INFO [main] LoginPageTest:92 - Quit the browser.
+2020-06-15 23:37:16,324  INFO [main] LoginPageTest:33 - Launching the Browser
+2020-06-15 23:37:16,461 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-15 23:37:16,461 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-15 23:37:18,245  INFO [main] LoginPageTest:92 - Quit the browser.
+2020-06-15 23:37:18,368  INFO [main] LoginPageTest:33 - Launching the Browser
+2020-06-15 23:37:20,546  INFO [main] LoginPageTest:69 - logged in successfully!
+2020-06-15 23:37:20,635  INFO [main] LoginPageTest:92 - Quit the browser.
+2020-06-15 23:37:20,639  INFO [main] LoginPageTest:33 - Launching the Browser
+2020-06-15 23:37:20,655 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-15 23:37:20,655 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-15 23:37:22,852 ERROR [main] LoginPageTest:84 - 
+2020-06-15 23:37:22,935  INFO [main] LoginPageTest:92 - Quit the browser.

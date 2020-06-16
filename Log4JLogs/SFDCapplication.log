@@ -13,3 +13,54 @@
 2020-06-15 23:40:06,183 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
 2020-06-15 23:40:08,442 ERROR [main] LoginPageTest:84 - 
 2020-06-15 23:40:08,529  INFO [main] LoginPageTest:92 - Quit the browser.
+2020-06-16 00:40:55,577  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 00:41:01,841  INFO [main] LoginPageTest:45 - Login | Salesforce
+2020-06-16 00:41:01,924  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 00:41:01,959  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 00:41:03,959  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 00:41:04,121  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 00:41:05,995 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-16 00:41:05,995 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-16 00:41:06,157  INFO [main] LoginPageTest:71 - logged in successfully!
+2020-06-16 00:41:06,236  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 00:41:06,239  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 00:41:08,705 ERROR [main] LoginPageTest:86 - Please enter your password.
+2020-06-16 00:41:08,788  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 11:57:14,718  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 11:57:18,113  INFO [main] LoginPageTest:45 - Login | Salesforce
+2020-06-16 11:57:18,198  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 11:57:18,199  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 11:57:20,060  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 11:57:20,153 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-16 11:57:20,153 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-16 11:57:20,250  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 11:57:22,215  INFO [main] LoginPageTest:71 - logged in successfully!
+2020-06-16 11:57:22,301  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 11:57:22,306  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 11:57:24,482 ERROR [main] LoginPageTest:86 - Please enter your password.
+2020-06-16 11:57:24,562  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 11:57:24,860 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-06-16 11:57:24,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-06-16 11:57:24,862 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-16 11:57:24,864 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-16 11:57:24,864 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/neha/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-16 11:57:24,889 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-16 11:57:24,889 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-16 11:57:25,026 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-06-16 11:57:25,026 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-06-16 11:57:25,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-16 11:57:25,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-16 11:57:25,027 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/neha/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-16 13:08:43,211  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 13:08:46,369  INFO [main] LoginPageTest:45 - Login | Salesforce
+2020-06-16 13:08:46,451  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 13:08:46,489  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 13:08:48,286  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 13:08:48,448  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 13:08:53,285 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-16 13:08:53,286 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-16 13:08:56,099  INFO [main] LoginPageTest:94 - Quit the browser.
+2020-06-16 13:08:56,102  INFO [main] LoginPageTest:35 - Launching the Browser
+2020-06-16 13:09:03,518 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-16 13:09:03,518 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-16 13:09:03,675  INFO [main] LoginPageTest:94 - Quit the browser.
